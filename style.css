@@ -1,0 +1,80 @@
+/* ini adalah sebuah komentar milik Css */
+/* halaman login */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(luffy.jpeg);
+}
+
+.box {
+    border: 2px solid rgb(51, 49, 20);
+    border-radius: 24px;
+    width: 400px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    text-align: center; 
+}
+
+.box h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: rgb(197, 118, 53);
+    border: rgb(27, 4, 4);
+
+
+}
+
+.box input {
+    display: block;
+    border: 2px solid rgb(145, 111, 48);
+    height: 20px;
+    width: 200px;
+    margin: 40px auto;
+    text-align: center;
+    color: aqua;
+    transition: 0.5s;
+    border-radius: 24px;
+    font-size: 15px;
+    background: none;
+}
+
+.box label [type="text"]:focus  , .box label [type="password"]:focus {
+  width: 280px;
+  background: none;  
+}
+
+.box button {
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box button:focus {
+    transition: 0.75s;
+    border-radius: 24px;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background: chartreuse;
+    color: black;
+}
+
+.box a {
+    display: block;
+    color: ghostwhite;
+    padding: 13px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: inherit;   
+    font-size: 15px;
+    background: none;
+    border: none;
+}
